@@ -5,9 +5,16 @@ system('clear');
 
 class Newspaper
 {
+    /** @var $name string name of the newspaper. */
     private $name;
+
+    /** @var $numberOfPages integer number of pages in newspaper. */
     private $numberOfPages;
+
+    /** @var $numberOfCopies integer number of printed copies. */
     private $numberOfCopies;
+
+    /** @var $isColor boolean to show if newspaper is printed in color or not. */
     private $isColor = true;
 
     public function setName(string $name): void
