@@ -29,7 +29,11 @@ class Newspaper
 
     public function setNumberOfPages(int $numberOfPages): void
     {
-        $this->numberOfPages = $numberOfPages;
+        if ($numberOfPages%4) {
+            die("Number of pages needs to be divisible by 4!");
+        } else {
+            $this->numberOfPages = $numberOfPages;
+        }
     }
 
     public function getNumberOfPages(): int
@@ -52,8 +56,13 @@ class Newspaper
         $this->isColor = !$this->isColor;
     }
 
-    public function getIsColor(): bool
+    public function getIsColor(): string
     {
-        return $this->isColor;
+        if($this->isColor) {
+            return "We will print it in color.";
+        } else {
+            return "We will print it in black&white.";
+        }
+
     }
 }
