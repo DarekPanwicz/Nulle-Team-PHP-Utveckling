@@ -1,7 +1,7 @@
 <?php
 
 //New declare construct
-declare(strict_type=1);
+declare(strict_types=1);
 
 class Leaflet
 {
@@ -18,7 +18,7 @@ class Leaflet
     {
         return $this->name;
     }
-    public function setSize(int size):void
+    public function setSize(int $size):void
     {
         $this->size = $size;
     }
