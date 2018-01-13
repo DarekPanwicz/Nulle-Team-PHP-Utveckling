@@ -3,12 +3,11 @@
 //New declare construct
 declare(strict_types=1);
 
-class Leaflet
+class Leaflet extends Product
 {
-    protected $name;
+
     protected $size;
     protected $colour;
-    protected $paperType;
 
     public function setName(string $name):void
     {
