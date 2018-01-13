@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Created by .ignore support plugin (hsz.mobi)
 ### Example user template template
 ### Example user template
@@ -5,3 +6,7 @@
 # IntelliJ project files
 .idea
 .php_cs.cache
+=======
+.idea/
+.php_cs.cache
+>>>>>>> origin/master
