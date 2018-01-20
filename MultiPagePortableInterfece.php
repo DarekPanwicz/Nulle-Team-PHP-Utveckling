@@ -5,5 +5,7 @@
  * Date: 2018-01-20
  * Time: 11:18
  */
-
-public function multiPageInkCalculate();
+interface MultiPagePortableInterfece
+{
+    public function multiPageInkCalculate();
+}
