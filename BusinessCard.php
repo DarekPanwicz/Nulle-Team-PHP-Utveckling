@@ -7,11 +7,11 @@ declare(strict_type=1);
 // New class added
 class BusinessCard extends AbstractProduct
 {
-    // size, string
-   private $size;
-    //color, string
+    // Variable:String. Size, string
+    private $size;
+    //Variable:String. Color, string
     private $color;
-    // one page
+    // Variable: String. One page
     private $numberOfPages;
 
     /**
